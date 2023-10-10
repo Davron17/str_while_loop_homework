@@ -6,4 +6,16 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    i=0
+    str=0
+    while i<len(s):
+        if s[i].isalpha():
+            str+=1
+        i+=1
+    return str
+print(main("hello world 2023"))
+
+
+
+
+    
