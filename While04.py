@@ -6,4 +6,11 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    i=0
+    str=0
+    while i<len(s):
+        if s[i].isupper():
+            str+=1
+        i+=1
+    return str
+print(main("Hello World 2023"))
